@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Lucky DuckDuckGo Bangs",
+    "version": "1.0.0",
+  
+    "description": "Allows DuckDuckGo Bangs to be used simultaneously with a preceding backslash to use the bang and instantly open the first result",
+  
+    "permissions": [
+        "webNavigation",
+        "webRequest",
+        "webRequestBlocking",
+        "tabs",
+        "<all_urls>"
+      ],
+
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+
+    "homepage_url": "https://github.com/j-ac/ImFeelinLuckyWithBangs",
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+      }
+}
+  
